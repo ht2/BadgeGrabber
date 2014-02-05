@@ -1,4 +1,4 @@
-var App =  ( typeof App === 'undefined' ) ? {} : App;
+var BadgeGrabber =  ( typeof BadgeGrabber === 'undefined' ) ? {} : BadgeGrabber;
 
 /**
  * badgeGetter - retrieves the OpenBadge JSON assertion for a badge
@@ -11,7 +11,7 @@ var App =  ( typeof App === 'undefined' ) ? {} : App;
  *                                            							$element - the original jquery Object the assertion was taken from
  * @param  {Function}   			finishCallback     	A function called when all assertions have been collected
  */
-App.badgeGetter = function( $selector, assertionAttribute, callback, finishCallback ){
+BadgeGrabber.grab = function( $selector, assertionAttribute, callback, finishCallback ){
 	var completed = 0;
 	$selector.each( function(){
 		var $el = $(this);

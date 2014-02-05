@@ -6,7 +6,7 @@ $(document).ready( function(){
 	$badges.append('<div class="loading">Loading badges...</div>');
 
 	//Fetch the badges
-	App.badgeGetter( 
+	BadgeGrabber.grab( 
 		$('.assertions .badge-assertion'), //the selector to grab assertions from
 		'data-url', //the attribute name holding the assertion
 		function( badge, url, $element ){ 
