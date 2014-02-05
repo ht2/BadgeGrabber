@@ -1,0 +1,26 @@
+.badge-assertion{
+	display: none;
+}
+
+.badge-container{
+	border: 1px solid #CCCCCC;
+	background-color: #EEEEEE;
+	width: 400px;
+	margin: 5px;
+	padding: 10px;
+	float: left;
+}
+
+.badge-container img{
+	float: left;
+	width: 90px;
+}
+
+
+.badge-container .badge-info{
+	margin: 0 0 0 110px;
+}
+
+.badge-container .badge-title{
+	margin-top: 5px;
+}
