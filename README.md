@@ -4,10 +4,8 @@
 
 A javascript function for finding assertions and handling them with a callback
 
-
 ###Dependencies
 - jQuery
-
 
 ###Instructions
 
